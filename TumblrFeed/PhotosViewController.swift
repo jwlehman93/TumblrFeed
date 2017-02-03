@@ -73,6 +73,8 @@ class PhotosViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 cell.avatarPhoto.setImageWith(avatarUrl)
                 cell.avatarPhoto.layer.cornerRadius = 25
                 cell.avatarPhoto.layer.masksToBounds = true
+                cell.avatarPhoto.layer.borderColor = UIColor.white.cgColor
+                cell.avatarPhoto.layer.borderWidth = 2.5
             }
         }
         return cell
