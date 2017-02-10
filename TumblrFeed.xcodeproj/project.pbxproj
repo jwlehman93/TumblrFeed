@@ -14,6 +14,8 @@
 		E590118A1E43F4330005D7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59011881E43F4330005D7F7 /* LaunchScreen.storyboard */; };
 		E59011941E43F67E0005D7F7 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59011931E43F67E0005D7F7 /* PhotosViewController.swift */; };
 		E59011991E43F9CF0005D7F7 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59011981E43F9CF0005D7F7 /* PhotoCell.swift */; };
+		E59011A01E4D2FFD0005D7F7 /* PhotosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E590119F1E4D2FFD0005D7F7 /* PhotosDetailViewController.swift */; };
+		E59011A21E4D465D0005D7F7 /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59011A11E4D465D0005D7F7 /* InfiniteScrollActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E590118B1E43F4330005D7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E59011931E43F67E0005D7F7 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		E59011981E43F9CF0005D7F7 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		E590119F1E4D2FFD0005D7F7 /* PhotosDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosDetailViewController.swift; sourceTree = "<group>"; };
+		E59011A11E4D465D0005D7F7 /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +84,13 @@
 		E590117E1E43F4330005D7F7 /* TumblrFeed */ = {
 			isa = PBXGroup;
 			children = (
+				E590119E1E4D2FA90005D7F7 /* viewcontrollers */,
 				E59011951E43F9810005D7F7 /* views */,
 				E590117F1E43F4330005D7F7 /* AppDelegate.swift */,
 				E59011831E43F4330005D7F7 /* Main.storyboard */,
 				E59011861E43F4330005D7F7 /* Assets.xcassets */,
 				E59011881E43F4330005D7F7 /* LaunchScreen.storyboard */,
 				E590118B1E43F4330005D7F7 /* Info.plist */,
-				E59011931E43F67E0005D7F7 /* PhotosViewController.swift */,
 			);
 			path = TumblrFeed;
 			sourceTree = "<group>";
@@ -95,8 +99,18 @@
 			isa = PBXGroup;
 			children = (
 				E59011981E43F9CF0005D7F7 /* PhotoCell.swift */,
+				E59011A11E4D465D0005D7F7 /* InfiniteScrollActivityView.swift */,
 			);
 			name = views;
+			sourceTree = "<group>";
+		};
+		E590119E1E4D2FA90005D7F7 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				E59011931E43F67E0005D7F7 /* PhotosViewController.swift */,
+				E590119F1E4D2FFD0005D7F7 /* PhotosDetailViewController.swift */,
+			);
+			name = viewcontrollers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E59011A21E4D465D0005D7F7 /* InfiniteScrollActivityView.swift in Sources */,
+				E59011A01E4D2FFD0005D7F7 /* PhotosDetailViewController.swift in Sources */,
 				E59011801E43F4330005D7F7 /* AppDelegate.swift in Sources */,
 				E59011991E43F9CF0005D7F7 /* PhotoCell.swift in Sources */,
 				E59011941E43F67E0005D7F7 /* PhotosViewController.swift in Sources */,
